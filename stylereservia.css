@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.maincontainer
+{
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a
+{
+    text-decoration:none; 
+}
+
+nav a:hover
+{
+   border-top: 2px solid rgba(0, 101, 252, 1); 
+}
+
+header ul
+{
+    list-style-type: none;
+}
+
+header li
+{
+    display: inline;
+    margin: 35px;
+}
+
+.hebergement
+{
+    color: rgba(0, 101, 252, 1);
+}
+
+.inscription
+{
+    color: rgba(0, 101, 252, 1);
+    font-weight: bolder;
+}

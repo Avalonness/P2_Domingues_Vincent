@@ -19,7 +19,7 @@ header
     justify-content: space-between;
 }
 
-header a
+a
 {
     text-decoration:none; 
 }
@@ -35,7 +35,7 @@ nav a
 }
 
 
-header ul
+ul
 {
     list-style-type: none;
 }
@@ -55,4 +55,23 @@ header li
 {
     color: rgba(0, 101, 252, 1);
     font-weight: bolder;
+}
+
+footer
+{
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer ul
+{
+    color: black;
+}
+
+footer li
+{
+    margin-top: 10px;
+    margin-right: 180px;
 }

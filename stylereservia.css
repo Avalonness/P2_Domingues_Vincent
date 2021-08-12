@@ -100,7 +100,7 @@ footer li
     align-items: center;
 }
 
-main input /*Modification de la saisie de recherche*/
+main .searchingtool /*Modification de la saisie de recherche*/
 {
     width: 235px;
     height: 48px;
@@ -121,10 +121,68 @@ main input /*Modification de la saisie de recherche*/
 .buttonsearch
 {
     width: 150px;
-    height: 52px;
+    height: 53px;
     border: solid 1px rgba(242, 242, 242, 1);
     background-color: rgba(0, 101, 252, 1);
     color: rgba(255, 255, 255, 1);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.filterloca /*Modification des filtres*/
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+.filterloca input
+{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.filteroption
+{
+    border: rgba(242, 242, 242, 1) 2px solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.iconfontawe
+{
+    background-color: rgba(222, 235, 255, 1);
+    border: rgba(222, 235, 255, 1) 3px solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+}
+
+.infodispo
+{
+ display: flex;
+ align-items: center;
+}
+
+.iconfontaweinfo
+{
+    border: rgba(242, 242, 242, 1) 2px solid;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-right: 15px;
 }

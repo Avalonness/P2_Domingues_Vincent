@@ -13,6 +13,8 @@ body
     margin-right: auto;  
 }
 
+/*Ici commence les personnalisations pour le header*/
+
 header
 {
     display: flex;
@@ -56,6 +58,8 @@ header li
     color: rgba(0, 101, 252, 1);
     font-weight: bolder;
 }
+
+/*Ici commence les personnalisations pour le footer*/
 
 footer
 {
